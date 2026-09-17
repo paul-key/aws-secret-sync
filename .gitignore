@@ -1,0 +1,17 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+build/
+terraform/source/sync_secrets.zip
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,7 @@
+region                  = "us-east-1"
+secret_prefix           = "prefix/"
+role_name               = "secret-sync-writer"
+source_account_id       = "111111111111"
+source_lambda_role_name = "secret-sync-lambda"
+# source_lambda_role_arn = "arn:aws:iam::111111111111:role/secret-sync-lambda"
+external_id             = "replace-with-a-long-random-string"

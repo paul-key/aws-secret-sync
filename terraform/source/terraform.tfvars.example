@@ -1,0 +1,6 @@
+region               = "us-east-1"
+secret_prefix        = "prefix/"
+lambda_role_name     = "secret-sync-lambda"
+dest_role_arn        = "arn:aws:iam::222222222222:role/secret-sync-writer"
+external_id          = "replace-with-a-long-random-string"
+create_cloudtrail    = false
