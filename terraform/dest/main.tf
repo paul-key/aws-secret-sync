@@ -15,7 +15,7 @@ data "aws_iam_policy_document" "trust" {
 
     principals {
       type        = "AWS"
-      identifiers = [local.source_lambda_role_arn]
+      identifiers = ["${local.source_lambda_role_arn}"]
     }
 
     condition {
